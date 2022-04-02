@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
     i18n: {done: "Select"}
   });
 
-
+  // Select initialisation
   let selects = document.querySelectorAll('select');
-  M.FormSelect.init(elems, options);
+  M.FormSelect.init(selects);
 });
